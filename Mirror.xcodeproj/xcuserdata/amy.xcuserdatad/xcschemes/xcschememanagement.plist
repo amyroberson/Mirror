@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MirrorTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>E13402311DF878B900BD337E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E13402411DF8DDA000BD337E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

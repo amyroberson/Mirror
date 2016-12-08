@@ -15,15 +15,11 @@ if !arguments.isEmpty && arguments[0] == "--run-tests" {
 
 
 print("How many pieces of text do you want to enter between 3 and 10?")
-
-
 guard let number = Int(readLine(strippingNewline: true)!) else {
     fatalError("You did not enter a number!")
 }
-
 var userArray = [String]()
-
-for _ in 2...number{
+for _ in 1...number{
     print("Please enter some more text")
     userArray.append(readLine(strippingNewline: true)!)
 }
